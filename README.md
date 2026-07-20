@@ -1,223 +1,171 @@
-<div align="center">
+<h1 align="center">Hi 👋, I'm Isaías Maia Frazão</h1>
 
-# 👋 Olá, eu sou Isaías Maia Frazão
+<h3 align="center">
+AI Engineer • Generative AI • Prompt Engineer
+</h3>
 
-### AI Engineer • Generative AI • Prompt Engineer • Python Developer
+<p align="center">
 
-<p>
-Construindo agentes inteligentes, aplicações com LLMs e sistemas de automação utilizando Inteligência Artificial.
+Building intelligent systems with LLMs, AI Agents and Automation.
+
 </p>
-
-<p>
-<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-<img src="https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white"/>
-<img src="https://img.shields.io/badge/n8n-FF6D5A?style=for-the-badge&logo=n8n&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
-</p>
-
-</div>
 
 ---
 
-# 🚀 Sobre mim
+# 👨‍💻 About Me
 
-Sou desenvolvedor focado em Inteligência Artificial, especializado na criação de aplicações utilizando Large Language Models (LLMs), agentes inteligentes e automações.
+💡 Passionate about Artificial Intelligence and intelligent systems.
 
-Meu principal interesse é desenvolver soluções que integrem IA Generativa com arquitetura moderna, memória contextual, RAG, automações e sistemas escaláveis.
+🚀 Focused on building AI-powered applications using:
 
-Atualmente estudo continuamente novas técnicas de:
-
-- 🤖 AI Engineering
-- 🧠 Prompt Engineering
-- 🔥 Agentic AI
-- 📚 Retrieval Augmented Generation (RAG)
-- ⚡ FastAPI
-- 🔗 n8n
-- ☁️ Deploy Cloud
-- 🐍 Python
+- Large Language Models (LLMs)
+- AI Agents
+- Prompt Engineering
+- FastAPI
+- Python
+- Automation
+- RAG
+- Supabase
+- n8n
 
 ---
 
-# 💼 Projetos em destaque
+# 🚀 Featured Projects
 
 ## 🧠 ARK
 
-Arquitetura experimental para agentes inteligentes inspirada em organismos vivos.
+Experimental architecture inspired by biological organisms for autonomous AI agents.
 
-### Recursos
+**Highlights**
 
-- Memória viva
-- Planejamento
-- Curiosidade
+- Living Memory
+- Planner
+- Validator
 - Executor
-- Validador
-- DNA de agentes
-- Aprendizado contínuo
-
-Tecnologias
-
-Python • FastAPI • LLMs • Memory
+- Curiosity Module
+- DNA Architecture
 
 ---
 
 ## 🛡 Sentinel Forge
 
-Sistema de auditoria inteligente de projetos utilizando IA.
+AI-powered source code auditing platform.
 
-Recursos
+Features:
 
-- Auditoria automática
-- Segurança
-- Arquitetura
-- Escalabilidade
-- Performance
-- Relatórios completos
+- Security Analysis
+
+- Architecture Review
+
+- Performance Review
+
+- Scalability Analysis
 
 ---
 
 ## 🤖 NovaMind AI
 
-Assistente inteligente para desenvolvimento de software.
-
-Possui dois modos:
-
-- Assistente IA
-- Plataforma de aprendizado
-
-Integrações:
+Programming assistant powered by Artificial Intelligence.
 
 - OpenAI
+
 - Gemini
+
 - FastAPI
+
 - Supabase
 
 ---
 
-## 🚀 Aiffinity AI
+## ⚡ Aiffinity AI
 
-Projeto focado em automações inteligentes, integrações e IA aplicada ao mercado digital.
+AI Automation platform integrating APIs and intelligent workflows.
 
 ---
 
-# 🛠 Stack Tecnológica
+# 🛠 Tech Stack
 
-## Linguagens
+### Languages
 
 - Python
 - JavaScript
 - SQL
 
-## IA
+### AI
 
-- OpenAI API
-- Gemini API
+- OpenAI
+- Gemini
 - Prompt Engineering
-- LLM Applications
-- AI Agents
 - RAG
+- AI Agents
 
-## Backend
+### Backend
 
 - FastAPI
-- REST APIs
 - PostgreSQL
 - Supabase
 
-## Automação
+### Automation
 
 - n8n
-- Webhooks
 - APIs
-- Integrações
+- Webhooks
 
-## Ferramentas
+### DevOps
 
 - Docker
 - Git
-- GitHub
-- VS Code
+- Linux
 
 ---
 
-# 📈 Atualmente estudando
+# 📚 Currently Learning
 
 - Agentic AI
-- Multi-Agent Systems
+
 - MCP
-- Vector Databases
-- AI Workflows
+
 - LangGraph
+
 - CrewAI
+
 - LlamaIndex
+
+- Vector Databases
 
 ---
 
-# 🎓 Certificações
+# 🎓 Certifications
 
-✔ Formação Inteligência Artificial do Zero ao Avançado (Udemy - 2026)
+✔ Artificial Intelligence from Zero to Advanced (Udemy)
 
 ✔ Prompt Engineering
 
 ✔ AI Applications
 
-✔ Python para IA
-
 ---
 
-# 🌎 Objetivo
+# 🎯 Career Goal
 
-Busco oportunidades como:
+Seeking opportunities as:
 
 - AI Engineer
+
 - Generative AI Engineer
+
 - Prompt Engineer
+
 - AI Automation Engineer
-- Python AI Developer
 
 ---
 
-# 📊 Estatísticas
+# 📫 Contact
 
-<p align="center">
+📧 isaiasmaiaf@gmail.com
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=SEU_USUARIO&show_icons=true&theme=tokyonight"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO&layout=compact&theme=tokyonight"/>
-
-</p>
-
----
-
-# 🔥 GitHub Streak
-
-<p align="center">
-
-<img src="https://streak-stats.demolab.com?user=SEU_USUARIO&theme=tokyonight"/>
-
-</p>
-
----
-
-# 📫 Contato
-
-LinkedIn
+💼 LinkedIn
 
 https://www.linkedin.com/in/isa%C3%ADas-maia-fraz%C3%A3o-b3a083280/
-
-Email
-
-isaiasmaiaf@gmail.com
-
 ---
 
-<div align="center">
-
-### "Building intelligent systems that solve real problems."
-
-⭐ Obrigado por visitar meu perfil!
-
-</div>
+⭐ Thanks for visiting my profile!
