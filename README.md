@@ -210,7 +210,7 @@ https://www.linkedin.com/in/isa%C3%ADas-maia-fraz%C3%A3o-b3a083280/
 
 Email
 
-SEU_EMAIL
+isaiasmaiaf@gmail.com
 
 ---
 
