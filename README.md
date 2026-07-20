@@ -206,7 +206,7 @@ Busco oportunidades como:
 
 LinkedIn
 
-https://linkedin.com/in/SEU_LINKEDIN
+https://www.linkedin.com/in/isa%C3%ADas-maia-fraz%C3%A3o-b3a083280/
 
 Email
 
