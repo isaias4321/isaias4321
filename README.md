@@ -1,9 +1,9 @@
-# Olá 👋, sou o Isaías Maia Frazão
+# Hi 👋, I'm Isaías Maia Frazão
 
 ### AI Engineer · Generative AI · LLM Agents
 
-Construo sistemas de IA aplicada — do protótipo ao produto — usando LLMs,
-agentes com ferramentas, RAG e automação.
+I build applied AI systems — from prototype to product — using LLMs,
+tool-using agents, RAG, and automation.
 
 [![Email](https://img.shields.io/badge/Email-isaiasmaiaf%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:isaiasmaiaf@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Isa%C3%ADas%20Maia%20Fraz%C3%A3o-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/isa%C3%ADas-maia-fraz%C3%A3o-b3a083280/)
@@ -11,76 +11,77 @@ agentes com ferramentas, RAG e automação.
 
 ---
 
-### 👨‍💻 Sobre mim
+### 👨‍💻 About me
 
-- 🚀 Foco em construir aplicações de IA com **LLMs**, **agentes com ferramentas**, **RAG** e **automação**
-- 🌱 Vim de Infraestrutura de TI e Redes, hoje especializado em IA Generativa
-- 🛠️ Gosto de projetos com **prova real de funcionamento** — todo repositório abaixo tem demo em vídeo/print, não só código
-- 📍 São Luís, Maranhão, Brasil
+- 🚀 Focused on building AI applications with **LLMs**, **tool-using agents**, **RAG**, and **automation**
+- 🌱 Background in IT Infrastructure & Networking, now specialized in Generative AI
+- 🛠️ I like projects with **real proof that they work** — every repo below has a video demo/screenshot, not just code
+- 📍 São Luís, Maranhão, Brazil
 
 ---
 
-### 🚀 Projetos em destaque
+### 🚀 Featured projects
 
 #### 🗄️ [langchain-sql-agent](https://github.com/isaias4321/langchain-sql-agent)
-Agente construído com **LangChain.js** que responde perguntas em português
-sobre um banco de dados, explorando o schema dinamicamente antes de gerar o
-SQL — em vez de um chain fixo com schema fixo no prompt.
+An agent built with **LangChain.js** that answers natural-language
+questions about a database, exploring the schema dynamically before
+generating SQL — instead of a fixed chain with a hardcoded schema in the prompt.
 `TypeScript` `LangChain.js` `SQLite` `Node.js`
-- Ferramentas (`list_tables`, `get_schema`, `execute_readonly_query`) escolhidas pelo próprio agente
-- Camada de segurança (`sqlGuard`) que bloqueia qualquer SQL de escrita, com testes automatizados
+- Tools (`list_tables`, `get_schema`, `execute_readonly_query`) chosen by the agent itself
+- Security layer (`sqlGuard`) that blocks any write SQL, with automated tests
 
 #### 💬 [rag-chat-docs](https://github.com/isaias4321/rag-chat-docs)
-Sistema de **RAG** (Retrieval-Augmented Generation) construído do zero, sem
-framework de orquestração — upload de PDF, chunking, embeddings, busca
-vetorial e resposta com citação da fonte.
+A **RAG** (Retrieval-Augmented Generation) system built from scratch, with
+no orchestration framework — PDF upload, chunking, embeddings, vector
+search, and source-cited answers.
 `Python` `FastAPI` `ChromaDB`
-- Responde apenas com base no documento enviado, e diz claramente quando a resposta não está lá (sem alucinar)
-- Testado end-to-end com múltiplos provedores de LLM (OpenAI, Google Gemini)
+- Answers only based on the uploaded document, and clearly says when the answer isn't there (no hallucinating)
+- Tested end-to-end with multiple LLM providers (OpenAI, Google Gemini)
 
 #### 🗓️ [meeting-saas](https://github.com/isaias4321/meeting-saas)
-SaaS completo de resumo de reuniões: upload de áudio → transcrição (Whisper)
-→ resumo e lista de ações via LLM, com autenticação, créditos e cobrança.
+A full meeting-summary SaaS: audio upload → transcription (Whisper) →
+summary and action items via LLM, with authentication, credits, and billing.
 `Python` `FastAPI` `Next.js` `Stripe`
-- Processamento assíncrono em background (upload não trava a requisição)
-- Fluxo de billing real com Stripe Checkout e webhooks
+- Asynchronous background processing (upload doesn't block the request)
+- Real billing flow with Stripe Checkout and webhooks
 
 #### ⚙️ [ai-gateway-api](https://github.com/isaias4321/ai-gateway-api)
-Gateway unificado para múltiplos provedores de LLM (OpenAI, Anthropic) —
-uma única API para chat completions, com streaming (SSE), rate limiting
-(token bucket), cache com TTL e retry automático com backoff exponencial.
+A unified gateway for multiple LLM providers (OpenAI, Anthropic) — one
+API for chat completions, with streaming (SSE), rate limiting (token
+bucket), TTL cache, and automatic retry with exponential backoff.
 `TypeScript` `Fastify` `Zod` `Vitest`
-- 23 testes automatizados (provedores mockados, suíte 100% offline e determinística)
-- Adapters intercambiáveis por provedor — trocar de OpenAI pra Anthropic é mudar um campo no request
+- 23 automated tests (mocked providers, 100% offline and deterministic suite)
+- Swappable per-provider adapters — switching from OpenAI to Anthropic is a single field in the request
+- Dockerized with a `HEALTHCHECK`, Docker Compose, and CI (GitHub Actions: lint → typecheck → build → test)
 
 #### 📲 [whatsapp-server](https://github.com/isaias4321/whatsapp-server)
-Microsserviço Node.js que conecta ao WhatsApp via **Baileys** e expõe uma
-API REST para uma aplicação principal enviar mensagens/imagens, gerenciar
-sessões (conexão por QR code) e listar grupos.
+A Node.js microservice that connects to WhatsApp via **Baileys** and
+exposes a REST API for a main application to send messages/images,
+manage sessions (QR-code connection), and list groups.
 `Node.js` `Baileys` `Supabase` `Render`
-- Sessão persistida no Supabase — sobrevive a reinicializações do servidor sem precisar reconectar o QR code
-- API protegida por header `x-api-key`, pensada para comunicação servidor-a-servidor entre o backend e a aplicação principal
+- Session persisted in Supabase — survives server restarts without needing to reconnect the QR code
+- API protected by an `x-api-key` header, designed for server-to-server communication between the backend and the main application
 
 #### 📓 [caderno-ia-generativa-negocios](https://github.com/isaias4321/caderno-ia-generativa-negocios)
-Caderno de estudo do desafio **"Explorando o NotebookLM como Ferramenta de
-Aprendizagem Ativa"** (DIO) — sobre IA generativa aplicada a negócios: ROI,
-casos de uso por setor e barreiras reais de adoção.
-`Prompt Engineering` `NotebookLM` `Pesquisa aplicada`
-- 5 prompts estratégicos documentados com resultado, dificuldade e aprendizado de cada um
-- Curadoria de fontes reais (Google Cloud, Databricks, Thomson Reuters), glossário e prompts reutilizáveis para revisão futura
+A study notebook from the **"Exploring NotebookLM as an Active Learning
+Tool"** challenge (DIO) — on generative AI applied to business: ROI,
+use cases by industry, and real adoption barriers.
+`Prompt Engineering` `NotebookLM` `Applied Research`
+- 5 strategic prompts documented with results, difficulties, and lessons learned from each
+- Curated real sources (Google Cloud, Databricks, Thomson Reuters), a glossary, and reusable prompts for future review
 
 ---
 
 ### 🛠 Tech Stack
 
-**Linguagens**
+**Languages**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
 
-**IA**
+**AI**
 
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white)
@@ -95,7 +96,7 @@ casos de uso por setor e barreiras reais de adoção.
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white)
 
-**Automação & DevOps**
+**Automation & DevOps**
 
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
@@ -104,13 +105,13 @@ casos de uso por setor e barreiras reais de adoção.
 
 ---
 
-### 📚 Estudando agora
+### 📚 Currently learning
 
 `Agentic AI` · `MCP` · `LangGraph` · `CrewAI` · `LlamaIndex` · `Vector Databases`
 
 ---
 
-### 🎓 Certificações
+### 🎓 Certifications
 
 - ✔ Artificial Intelligence: From Zero to Advanced — Udemy (2026)
 - ✔ Prompt Engineering
@@ -118,9 +119,9 @@ casos de uso por setor e barreiras reais de adoção.
 
 ---
 
-### 🎯 Objetivo
+### 🎯 Goal
 
-Buscando oportunidades como: `AI Engineer` · `Generative AI Engineer` · `Prompt Engineer` · `AI Automation Engineer`
+Looking for opportunities as: `AI Engineer` · `Generative AI Engineer` · `Prompt Engineer` · `AI Automation Engineer`
 
 ---
 
@@ -131,6 +132,6 @@ Buscando oportunidades como: `AI Engineer` · `Generative AI Engineer` · `Promp
 
 ---
 
-📫 Fico à disposição — [isaiasmaiaf@gmail.com](mailto:isaiasmaiaf@gmail.com) · [LinkedIn](https://www.linkedin.com/in/isa%C3%ADas-maia-fraz%C3%A3o-b3a083280/)
+📫 Feel free to reach out — [isaiasmaiaf@gmail.com](mailto:isaiasmaiaf@gmail.com) · [LinkedIn](https://www.linkedin.com/in/isa%C3%ADas-maia-fraz%C3%A3o-b3a083280/)
 
-⭐ Obrigado pela visita!
+⭐ Thanks for visiting!
